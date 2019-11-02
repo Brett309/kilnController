@@ -14,25 +14,6 @@ Forked from the reflow oven project: [picoReflow](https://apollo.open-resource.o
 
 ![Image](https://apollo.open-resource.org/_media/mission:resources:picoreflow_webinterface_edit.jpg)
 
-## Hardware
-
-  * [Raspberry Pi Zero W](https://raspberry.piaustralia.com.au/raspberry-pi-zero-w) - any pi will do but the zeros are the cheapest at about $15 here in Australia
-  * [MAX 31855](https://www.adafruit.com/product/269) Cold-Junction K-Type Thermocouple (about $6 on eBay)
-  * [K-Type Thermocouple Sensor](https://www.google.com/search?q=K-Type+Thermocouple+Sensor+1250+1M+SY+site%3Aebay.com.au) -100°C to 1250°C ($3 on eBay)
-  * Solid State Relay Module [SSR-25DA](https://www.google.com/search?q=Solid+State+Relay+Module+SSR-25DA+25A+%2F250V+3-32V+DC+Input+24-380VAC+Output+pOK) 25A /250V 3-32V DC Input 24-380VAC Output (again, about $6 on eBay)
-
-### Wiring
-​MAX31855 to RPi PIN (Pin Name) 
-
-Vin not connected 
-3Vo to Pin 1 (3.3v DC) 
-GND to Pin 9 (Ground) 
-DO to Pin 11 (GPIO 17) 
-CS to Pin 13 (GPIO 27) 
-CLK to Pin 15 (GPIO 22)
-
-## Installation
-
 ### Dependencies
 
 External dependencies have been kept to a minimum to make it easily
@@ -72,7 +53,7 @@ If you also want to use the in-kernel SPI drivers with a MAX31855 sensor:
 
 ### Clone repo
 
-    $ git clone https://github.com/botheredbybees/kilnController.git
+    $ git clone https://github.com/Brett309/kilnController/tree/Nemesis-PI.git
     $ cd kilnController
 
 ## Configuration
