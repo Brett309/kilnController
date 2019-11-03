@@ -15,6 +15,14 @@ So Far Tested on HPF4 Ward Kiln ,Paragon TNF82 , AFC 10CFT Rebnick 18" kiln and 
 
 It can not only heat stuff it can chill as well!! use long cycle times on cooling mode so to not damage fridge or freezer motors
 
+**Standard Interface**
+
+![Image](https://cdn.instructables.com/F2S/VANL/JQQYIDCZ/F2SVANLJQQYIDCZ.LARGE.jpg)
+
+**Curve Editor**
+
+![Image](https://apollo.open-resource.org/_media/mission:resources:picoreflow_webinterface_edit.jpg)
+
 Updating Software
 I will Try to add Auto tuning in the future! but please don't hesitate to help
 
