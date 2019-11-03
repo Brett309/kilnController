@@ -1,20 +1,22 @@
 kilnController
 ==============
 
-Turns a Raspberry Pi into a cheap, universal & web-enabled kiln Controller.
-Forked from the reflow oven project: [picoReflow](https://apollo.open-resource.org/mission:resources:picoreflow) which I found through a blog post on [succulent ceramics](http://succulentceramics.com/2016/10/07/wifiraspberry-kiln-controller/) botheredbybees/kilnController https://github.com/botheredbybees/kilnController
+Turns a Raspberry Pi 4 into a Beast, it's universal & is a web-enabled kiln Controller.
+Forked from the reflow oven project: [picoReflow](https://apollo.open-resource.org/mission:resources:picoreflow) and kilncontroller which I found through botheredbybees/kilnController https://github.com/botheredbybees/kilnController
 
-​I used kilnController to add a firing schedule control to a little pottery kiln I picked up second hand. The kiln is 10A/240V rated to 1000 degrees C. It has a door switch and a basic thermostat which allows for 25%, 50%, 75% or 100% power but no timer, which means constant monitoring if you want to ramp the temperature up slowly or soak the wares at any point. With the kilnController I can now set it up for a bisque or low temperature glaze firing and leave it to its own devices, checking progress every now and then on my mobile phone or PC. 
+I Tried and Tested this Awesome software on many kilns it has manual tuning at the moment which is not that difficult and gets a better result in the end fine tuning anyhow , you can control and check progress on my mobile phone or PC. If you already know your kilns PID setting it makes it easy or you can use/borrow a cheap PID set point controller with Auto tune to get settings it works :)
 
-**Standard Interface**
+Kiln Control Software has Almost unlimited Ramps/Stages and Temperature Range Depending on sensor Type
+Has Thermocouple Short to ground and no connection protection(so firing will stop if errors are encounted)
+Control from anywhere in the world over multiple devices Data Log by screen shoting the graph
+Over time you can use this data to see how much you elements are wearing at the top end this applies mostly to stoneware firings
 
-![Image](https://cdn.instructables.com/F2S/VANL/JQQYIDCZ/F2SVANLJQQYIDCZ.LARGE.jpg)
+So Far Tested on HPF4 Ward Kiln ,Paragon TNF82 , AFC 10CFT Rebnick 18" kiln and many more , works best with thermocouple close to elements and no ceramic sheath/well easier to tune.
 
-**Curve Editor**
+It can not only heat stuff it can chill as well!! use long cycle times on cooling mode so to not damage fridge or freezer motors
 
-![Image](https://apollo.open-resource.org/_media/mission:resources:picoreflow_webinterface_edit.jpg)
-
-### Dependencies
+Updating Software
+I will Try to add Auto tuning in the future! but please don't hesitate to help
 
 External dependencies have been kept to a minimum to make it easily
 deployable on any flavor of open-source operating system. 
@@ -80,10 +82,6 @@ add the line:
 
 Open Browser and goto http://127.0.0.1:8080 (for local development) or the IP
 of your PI and the port defined in config.py (default 8081).
-
-### Build Instructions
-
-I put together some step by step instructions on https://www.instructables.com/id/Build-a-Web-Enabled-High-Temperature-Kiln-Controll
 
 ## License
 
