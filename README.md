@@ -63,7 +63,7 @@ If you also want to use the in-kernel SPI drivers with a MAX31855 sensor:
 
 ### Clone repo
 
-    $ git clone https://github.com/brett309/kilncontroller.git
+    $ git clone https://github.com/Brett309/kilnController/tree/Nemesis-PI.git
     $ cd kilnController
 
 ## Configuration
