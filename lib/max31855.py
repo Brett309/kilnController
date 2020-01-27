@@ -71,7 +71,7 @@ class MAX31855(object):
         noConnection = (data_32 & 0x00000001) != 0       # OC bit, D0
         shortToGround = (data_32 & 0x00000002) != 0      # SCG bit, D1
         shortToVCC = (data_32 & 0x00000004) != 0         # SCV bit, D2
-       if anyErrors:
+        if anyErrors:
             if noConnection:
                 raise MAX31855Error("No Connection")
             elif shortToGround:
@@ -82,7 +82,7 @@ class MAX31855(object):
                 # Perhaps another SPI device is trying to send data?
                 # Did you remember to initialize all other SPI devices?
                 raise MAX31855Error("Unknown Error")
-                
+
     def data_to_tc_temperature(self, data_32 = None):
         '''Takes an integer and returns a thermocouple temperature in celsius.'''
         if data_32 is None:
