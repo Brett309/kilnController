@@ -26,10 +26,10 @@ currency_type   = "AUD"   # Currency Symbol to show when calculating cost to run
 #   can use whichever GPIO you prefer/have available.
 
 ### Outputs
-gpio_heat = 23  # Switches zero-cross solid-state-relay (was 11 initially)
+gpio_heat = 20  # Switches zero-cross solid-state-relay (was 11 initially)
 # I don't use the following two imputs for ceramics, but there here if you need them:
-gpio_cool = 10  # Regulates PWM for 12V DC Blower
-gpio_air  = 9   # Switches 0-phase det. solid-state-relay
+gpio_cool = 21  # Regulates PWM for 12V DC Blower
+gpio_air  = 16   # Switches 0-phase det. solid-state-relay
 
 heater_invert = 0 # switches the polarity of the heater control (was 0 initially)
 
@@ -45,15 +45,15 @@ max6675 = 0
 max31855spi = 0 # if you use this one, you MUST reassign the default GPIO pins
 
 ### Thermocouple Connection (using bitbang interfaces)
-gpio_sensor_cs = 27
-gpio_sensor_clock = 22
-gpio_sensor_data = 17
+gpio_sensor_cs = 19
+gpio_sensor_clock = 13
+gpio_sensor_data = 26
 
 ### Thermocouple SPI Connection (using adafrut drivers + kernel SPI interface)
 spi_sensor_chip_id = 0
 
 ### amount of time, in seconds, to wait between reads of the thermocouple
-sensor_time_wait = 10
+sensor_time_wait = 2
 # was .5 for solder reflow
 
 
@@ -61,9 +61,9 @@ sensor_time_wait = 10
 #
 #   PID parameters
 
-pid_ki = 0.1  # Integration
-pid_kd = 0.4  # Derivative
-pid_kp = 0.5  # Proportional
+pid_ki = 0.6  # Integration
+pid_kd = 42  # Derivative
+pid_kp = 10  # Proportional
 
 
 ########################################################################
