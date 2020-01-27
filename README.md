@@ -63,7 +63,7 @@ If you also want to use the in-kernel SPI drivers with a MAX31855 sensor:
 
 ### Clone repo
 
-    $ git clone https://github.com/Brett309/kilnController/tree/Nemesis-PI.git
+    $ git clone https://github.com/brett309/kilncontroller.git
     $ cd kilnController
 
 ## Configuration
@@ -88,8 +88,8 @@ add the line:
 
 ### Client Access
 
-Open Browser and goto http://127.0.0.1:8080 (for local development) or the IP
-of your PI and the port defined in config.py (default 8081).
+Open Browser and goto http://127.0.0.1:8081 (for local development) or the IP
+of your PI and the port defined in config.py (default 8080).
 
 ## License
 
