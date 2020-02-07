@@ -54,16 +54,16 @@ spi_sensor_chip_id = 0
 
 ### amount of time, in seconds, to wait between reads of the thermocouple
 sensor_time_wait = 2
-# was .5 for solder reflow
+# was .5 for solder reflow kilns mechanical relays like a longer cycle time
 
 
 ########################################################################
 #
 #   PID parameters
+pid_kp = 0.6  # Proportional
+pid_ki = 42  # Integration
+pid_kd = 10  # Derivative
 
-pid_ki = 0.6  # Integration
-pid_kd = 42  # Derivative
-pid_kp = 10  # Proportional
 
 
 ########################################################################
