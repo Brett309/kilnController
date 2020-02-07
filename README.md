@@ -1,5 +1,5 @@
 kilnController
-Turns a Raspberry Pi 4 into a Beast, it's universal & is a web-enabled kiln Controller. Forked from the reflow oven project: picoReflow and kilncontroller which I found through botheredbybees/kilnController https://github.com/botheredbybees/kilnController
+Turns a Raspberry Pi 4 into a Beast, it's universal & is a web-enabled kiln Controller. Forked from the reflow oven project: picoReflow i found first through Chrono and kilncontroller which I found through botheredbybees/kilnController https://github.com/botheredbybees/kilnController
 
 I Tried and Tested this Awesome software on many kilns it has manual tuning at the moment which is not that difficult and gets a better result in the end fine tuning anyhow , you can control and check progress on my mobile phone or PC. If you already know your kilns PID setting it makes it easy or you can use/borrow a cheap PID set point controller with Auto tune to get settings it works :)
 
@@ -8,14 +8,6 @@ Kiln Control Software has Almost unlimited Ramps/Stages and Temperature Range De
 So Far Tested on HPF4 Ward Kiln ,Paragon TNF82 , AFC 10CFT Rebnick 18" kiln and many more , works best with thermocouple close to elements and no ceramic sheath/well easier to tune.
 
 It can not only heat stuff it can chill as well!! use long cycle times on cooling mode so to not damage fridge or freezer motors
-
-Standard Interface
-
-Image
-
-Curve Editor
-
-Image
 
 Updating Software I will Try to add Auto tuning in the future! but please don't hesitate to help
 
