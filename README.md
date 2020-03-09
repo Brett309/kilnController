@@ -1,5 +1,5 @@
 kilnController
-Turns a Raspberry Pi 4 into a Beast, it's universal & is a web-enabled kiln Controller. Forked from the reflow oven project: picoReflow i found first through Chrono and kilncontroller which I found through botheredbybees/kilnController https://github.com/botheredbybees/kilnController
+Turns a Raspberry Pi 4 into a Beast, it's universal & is a web-enabled kiln Controller. Forked from the reflow oven project: picoReflow i found first through Chrono and kilncontroller which I found through botheredbybees/kilnController https://github.com/botheredbybees/kilnController also helping rami and Jbruce12000 https://github.com/jbruce12000/kiln-controller
 
 I Tried and Tested this Awesome software on many kilns it has manual tuning at the moment which is not that difficult and gets a better result in the end fine tuning anyhow , you can control and check progress on my mobile phone or PC. If you already know your kilns PID setting it makes it easy or you can use/borrow a cheap PID set point controller with Auto tune to get settings it works :)
 
