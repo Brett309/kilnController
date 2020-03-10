@@ -266,4 +266,4 @@ if __name__ == "__main__":
             running = False
     for thermocouple in thermocouples:
         thermocouple.cleanup()
-        # Driver update credit to jbruce12000 https://github.com/jbruce12000/kiln-controller/blob/master/lib/max31855.py
+       
