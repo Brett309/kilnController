@@ -266,4 +266,4 @@ if __name__ == "__main__":
             running = False
     for thermocouple in thermocouples:
         thermocouple.cleanup()
-       
+       # 2019
