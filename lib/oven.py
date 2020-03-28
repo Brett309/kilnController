@@ -129,7 +129,7 @@ class Oven (threading.Thread):
                     # The direction or amount of change does not matter
                     # This prevents runaway in the event of a sensor read failure 
                     # Temp Count Long run Stabilization adjust below if your run ends before finishing adjust above below number
-                    if temperature_count > 100:
+                    if temperature_count > 44:
                         log.info("Error reading sensor, oven temp not responding to heat.")
                         self.reset()
                 else:
